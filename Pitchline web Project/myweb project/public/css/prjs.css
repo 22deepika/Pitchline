@@ -1,0 +1,22 @@
+#Shark-div
+{
+  background-color:rgb(215, 234, 235) ;
+}
+.container-fluid
+{
+   
+    width: 170px;
+        padding: 10px;
+        color: black;
+        
+        float: rightt;
+      
+        text-align: center;
+        cursor: pointer;
+       
+        
+}
+
+#lacs {
+float:right;
+}

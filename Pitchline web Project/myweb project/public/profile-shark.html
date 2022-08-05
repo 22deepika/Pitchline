@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+      
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- FOR CORRECT MOBILE VIEW-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <script src="js/jquery-1.8.2.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+      </script>
+      
+     
+      <title>  <h1>shark page</h1></title>
+     
+      <link rel="stylesheet" href="css/dabrastyle.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <script src="js/bootstrap.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="js/jquery-1.8.2.min.js"> </script>
+     <script src="js/prjs.js"></script>
+     <link rel="stylesheet" href="css/prjs.css">
+
+
+
+
+
+<style>
+  #container
+{
+  background-color:rgb(152, 8, 8) ;
+}
+</style>
+<body>
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="#" ><div style="float: left;"> <img src="images/logo proj.webp" height="50px"><span style="color:white;">Pitchline... </div> </span> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+        <div style="margin-right:600px ;"><h1 style="color:white"> Shark Profile
+          </h1></div>
+         
+    </div>
+  
+  </nav>
+            
+           
+      <!-- ====================== Navbar bottom ===================================================================== -->
+  <nav class="navbar fixed-bottom bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand mb-2 h1" href="#"></a>
+    </div>
+  </nav>
+  <!-- ===================================================================================================== -->
+  <div id="Shark-div">
+   <div class="container"><br><br>
+    <form class="row g-3"  name="shark" method="post" enctype="multipart/form-data">
+     
+     
+      <input type="hidden" id="oldPic" name="oldPic">
+      <input type="hidden" id="oldPic1" name="oldPic1">
+
+             
+          
+             
+     
+        <div class="col-md-4">
+
+          
+          <label for="validationServerUsername" class="form-label"><b>Email-id</b></label>
+
+          <input type="text" class="form-control"  placeholder="example@gmail.com" name="emailid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+            
+             <span id="emailid">
+              *
+            </span></div>
+
+<div  class="col-md-1"> <br> <button type="button" name="btnufetch" class="btn btn-outline-primary" id="fetch" style="height:50;" >fetch </button> 
+</div>
+
+
+            
+<div class="col-md-3">
+  <label for="validationServer" class="form-label"><b>Contact-No</b></label>
+  <input type="text" class="form-control" placeholder="only digits" name="contact" id="validationServercontact" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+   <span id="contact">
+    *
+  </span>
+
+
+</div>
+        
+       
+
+
+        
+        <div class="col-md-3">
+          <label for="validationServer01" class="form-label"><b>First name</b></label>
+          <input type="text" class="form-control" placeholder="write alphabets only" name="Name" id="validationServer01"  required>
+          <span id="name">*
+
+          </span>
+
+
+         
+            
+        </div>
+
+        <div class="col-md-5">
+          <label for="validationServer" class="form-label"><b>Adrress</b></label>
+            <input type="text" class="form-control" placeholder="house-no,street,colony" name="address" id="address" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+           
+            
+        </div>
+       
+
+
+
+        <div class="col-md-3">
+          <label for="validationServe" class="form-label"><b>Occupation</b></label>
+            <input type="text" class="form-control" placeholder="Worker"  name="occupation" id="occupation" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+           
+            
+        </div>
+
+        
+
+        <div class="col-md-3">
+          <label for="validationServer03" class="form-label"><b>City</b></label>
+          <input type="text" class="form-control" placeholder="english" name="city" id="city" aria-describedby="validationServer03Feedback" required>
+          
+        </div>
+        <div class="col-md-2">
+          <img src="" alt=""  name="imgprev1" id="imgprev1" height="150" width="150">
+        </div>
+
+
+
+          <div class="col-md-3" style="padding-left: 20px;">
+            <label for="validationServer04" class="form-label"><b>Adhar Card</b></label>
+            <input type="file" class="form-control"  name="acardpic" id="acardpic"  onchange="loadproof(this);">
+           
+
+            <div class="invalid-feedback">Example invalid form file feedback</div>
+          </div>
+          <div class="col-md-2" >
+            <img src="" alt="" name="imgprev"id="imgprev" height="150" width="150">
+            </div>
+         
+          <div class="col-md-3" style="padding-left: 15px;">
+            <label for="validationSever04" class="form-label"><b>Profile-pic</b></label>
+            <input type="file" class="form-control"  name="ppic" id="ppic"  onchange="loadprofile(this);">
+           
+            <div class="invalid-feedback">Example invalid form file feedback</div>
+          </div>
+       <div class="col-md-1"></div>
+        <div class="col-md-2">
+          <label for="validationServe4" class="form-label"><b>Categories</b></label>
+          <select class="form-select" placeholder="category" name="categories" id="txtcategories" aria-describedby="validationServer04Feedback" required>
+            <option selected disabled value="">Choose...</option>
+            <option>mech</option>
+        <option value="eng">Engineering</option>
+        <option value="it">IT</option>
+        <option value="cs">Comp Sci</option>
+        <option value="finance">Finance</option>
+
+          </select>
+          
+        </div>
+        <div class="col-md-3">
+          <label for="validationServer04" class="form-label"><b>Invested in no of Companies</b></label>
+          <select class="form-select" name="compcount" id="txtcompcount" required aria-label="select example">
+            <option value=""></option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <div class="invalid-feedback">Example invalid select feedback</div>
+        </div>
+
+      
+        <div class="col-md-2">
+          <label for="validationSeer05" class="form-label"><b>Amount Invested</b></label>
+         
+          <input type="text"  class="form-control" value="" placeholder="invested Amount" name="amount" id="txtamount" aria-describedby="validationServer05Feedback" required>
+         
+        
+        </div>
+        <div class="col-md-4">
+          <label for="validationTextrea" class="form-label"><b>Other-information</b></label>
+          <textarea class="form-control" name="info" id="txtinfo" placeholder="textarea" required></textarea>
+          <div class="invalid-feedback">
+            Please enter a message in the textarea.
+          </div>
+        </div>
+
+     
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input " type="checkbox" value="6" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+            <label class="form-check-label" for="invalidCheck3">
+              <b>Agree to terms and conditions</b>
+            </label>
+            <div id="invalidCheck3Feedback" class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+          </div>
+         
+        </div>
+        
+      
+     <div>
+          <center> 
+           <input type="submit" value="save" name="btnsave" id="btnsave" class="btn btn-outline-primary" formaction="/profilesave-shark" ></input>
+           <input type="submit" value="update" name="btnupdate" id="btnupdate" class="btn btn-outline-primary" formaction="/update-shark"> </input> 
+          
+          
+         </center>
+        
+
+  
+</div>
+
+      </form>
+    </div>
+     
+  
+    
+</body>
+</html>
