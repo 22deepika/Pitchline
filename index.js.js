@@ -13,7 +13,7 @@ app.use(express.static("public"));
 //url. hand.
 app.get("/", function (req, resp) {
     //console.log("Home page");
-    //resp.send("<h1>Welcome... Ites Home Page</h1>");
+    resp.send("<h1>Welcome... Ites Home Page</h1>");
     resp.sendFile(__dirname + "/public/index1.html");
 })
 var DbConfigKuch = {
