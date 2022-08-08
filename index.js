@@ -7,9 +7,8 @@ var mysql = require("mysql");
 
 var app = express();
 
-app.listen(2006, function () {
-    console.log("server started");
-})
+app.listen(process.env.PORT || 5000);
+
 app.use(express.static("public"));
 //url. hand.
 app.get("/", function (req, resp) {
