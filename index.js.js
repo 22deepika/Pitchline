@@ -12,10 +12,15 @@ app.listen(process.env.PORT || 5000);
 app.use(express.static("public"));
 //url. hand.
 app.get("/", function (req, resp) {
-    //console.log("Home page");
-    resp.send("<h1>Welcome... Ites Home Page</h1>");
-    resp.sendFile(__dirname + "/public/index1.html");
+    var purapath = process.cwd() + "/publc/index1.html";
+    resp.sendFile(purapath)
+    console.log("index started");
 })
+// app.get("/", function (req, resp) {
+//     //console.log("Home page");
+//     //resp.send("<h1>Welcome... Ites Home Page</h1>");
+//     resp.sendFile(__dirname + "/public/index1.html");
+// })
 var DbConfigKuch = {
     host: "localhost",
     user: "root",
